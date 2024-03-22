@@ -5212,13 +5212,13 @@ MonoBehaviour:
   pools:
   - tag: Bullet
     prefab: {fileID: 2530423858458019561, guid: 64d1e68a23cc4dd4aa406ad8b019d351, type: 3}
-    poolSize: 0
+    poolSize: 30
   - tag: HitImpact
     prefab: {fileID: 5880797563127281583, guid: 265d3a5ba69981a4698ceabcedf368b0, type: 3}
-    poolSize: 0
+    poolSize: 15
   - tag: Zombie
     prefab: {fileID: 8694520273448774837, guid: f0be350c5c36e27459844b2cba07a061, type: 3}
-    poolSize: 0
+    poolSize: 30
 --- !u!4 &1498682650
 Transform:
   m_ObjectHideFlags: 0
@@ -5412,7 +5412,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 230.85776, y: -59.9}
+  m_AnchoredPosition: {x: 230.85779, y: -59.899902}
   m_SizeDelta: {x: 427.536, y: 157.7434}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1589352006
